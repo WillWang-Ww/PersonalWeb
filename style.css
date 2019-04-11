@@ -1,0 +1,240 @@
+body{
+    margin:0;
+    background-color: aliceblue;
+    background-image: url(./img/wall1.jpg);
+    background-size: 100%;
+}
+
+ .clearfix::after{
+     content:'';
+     display: block;
+     clear: both;
+ }
+
+ a{
+     color: inherit;
+     text-decoration: none;
+ }
+
+ ul,ol{
+     list-style: none;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .topNavBar nav > ul >li{
+    float: left;
+    margin-left:50px;
+    margin-right:15px; 
+    margin-top: 30px;
+    position: relative;
+ }
+
+ .topNavBar nav > ul > li> a{
+    font-size:18px;
+    color: gray;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+ }
+
+ .topNavBar nav > ul > li> a:hover {
+     border-bottom: 3px solid #e06567; 
+ }
+
+ .main{
+     position: relative;
+ }
+
+ .popup{
+     background-color: rgba(66, 66, 66, 0.5);
+     position:absolute;
+     top:18%;
+     width: 1100px;
+     height: 600px;
+     display: none;
+     margin-left: 400px;
+ }
+
+ .popup:target{
+     display:flex;
+ }
+
+.card .card2 .card3{
+    display:inline-block;
+    max-width: 940px;
+}
+
+.foot{
+    position: relative;
+    top:500px;
+    left:500px;
+}
+
+.text{
+    float: left;
+    margin-left:60px;
+    margin-top: 70px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.HeadSculpture{
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.text hr{
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.text dl dt,
+.text dl dd{
+    float: left;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.text dl dt{
+    font-weight: bold;
+}
+.text h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.text p{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.foot{
+    float: left;
+}
+h2{
+    color:aliceblue;
+    font-size: 42px;
+    font-weight: bold;
+    position: relative;
+    top:50px;
+    left:44%;
+}
+.card3{
+    position: relative;
+}
+.back1{
+    font-size: 20px;
+    text-align:auto;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    right: 15px;
+}
+h3{
+    font-size:20px;
+    padding-right: 40px; 
+    color: white;
+    position: relative;
+    top:30px;
+    left:0%;
+}
+ol#skill{
+    background-color:  rgba(236, 99, 58, 0.5);
+    margin: 100px 50px 50px 100px;
+}
+ol#skill > li{
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+ol#skill > li:nth-child(even){
+    float: right;
+}
+div#Progressbar {
+    height:8px;
+    background: #FAE1E1;
+    border-radius: 2px;
+    margin: 40px 0 40px;
+}
+.progress{
+    height: 100%;
+    background: #E6686A;
+    width: 70%;
+    border-radius: 2px;
+}
+.Card2{
+  width: 1400px;
+  margin-top: 100px;
+  height: 400px;
+}
+.self{
+   display:table;
+   margin: 0 auto;
+   color: aliceblue;
+   font-size: 23px;
+   padding: 5px;
+
+}
+a#symble1{
+    position: fixed;
+    top: 625px;
+    left: 700px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+a#symble2{
+    position: fixed;
+    top: 625px;
+    left: 800px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+a#symble3{
+    position: fixed;
+    top: 625px;
+    left: 900px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+a#symble4{
+    position: fixed;
+    top: 625px;
+    left: 1000px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+a#symble5{
+    position: fixed;
+    top: 625px;
+    left: 1100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/*footer.iconfamily{
+    position: fixed;
+    top: 0;
+    left: 0x;  
+}*/
+a#symble1:hover{
+    background:  rgba(58, 56, 56, 0.986)
+}
+a#symble2:hover{
+    background:  rgba(58, 56, 56, 0.986)
+}
+a#symble3:hover{
+    background:  rgba(58, 56, 56, 0.986)
+}
+a#symble4:hover{
+    background:  rgba(58, 56, 56, 0.986)
+}
+a#symble5:hover{
+    background:  rgba(58, 56, 56, 0.986)
+}
