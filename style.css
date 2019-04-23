@@ -44,25 +44,24 @@ body{
  }
 
  .main{
-     position: relative;
+    height: 100vh;
  }
 
  .popup{
      background-color: rgba(66, 66, 66, 0.5);
-     position:absolute;
-     top:18%;
      width: 1100px;
      height: 600px;
      display: none;
-     margin-left: 400px;
+     
  }
 
  .popup:target{
      display:flex;
+     justify-content: center;
+     align-items: center;
  }
 
 .card .card2 .card3{
-    display:inline-block;
     max-width: 940px;
 }
 
